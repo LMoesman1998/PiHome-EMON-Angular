@@ -1,0 +1,46 @@
+.space {
+  padding-top: 50px;
+}
+
+.card-header {
+  background: rgb(239, 242, 244);
+}
+
+.card-footer {
+  background: rgb(239, 242, 244);
+}
+
+.col-md {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.card-title {
+  color: gray;
+  padding-bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.card-text {
+  width: 100%;
+  text-align: center;
+}
+
+.spacer {
+    border-left: 1px solid lightgray;
+}
+
+.chart-holder {
+  height: 400px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.vert-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

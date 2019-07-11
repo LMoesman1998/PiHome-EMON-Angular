@@ -1,0 +1,45 @@
+<div class="space"></div>
+<h5 class="card-header">Verbruik</h5>
+<div class="card-body">
+  <div class="row">
+    <div class="col-md">
+      <h5 class="card-title">Huidig tarief</h5>
+      <h1 class="card-text">001{{tariff}}</h1>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-md">
+      <h5 class="card-title">Totaal verbruik tarief 1</h5>
+      <h1 class="card-text">2989.653 kWh{{tariff1}}</h1>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-md">
+      <h5 class="card-title">Totaal verbruik tarief 2</h5>
+      <h1 class="card-text">2989.653 kWh{{tariff2}}</h1>
+    </div>
+  </div>
+</div>
+<h5 class="card-footer"></h5>
+
+<h5 class="card-header">Actueel Verbruik</h5>
+<div class="card-body">
+  <div class="row">
+    <div class="col-md-10">
+      <div class="chart-holder">
+        <canvas baseChart [datasets]="data" [labels]="labels" [options]="options" [legend]="legend"
+          [chartType]="chartType" [plugins]="plugins">
+        </canvas>
+      </div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-md">
+      <div class="vert-center">
+        <h5 class="card-title">Totaal Verbruik</h5>
+        <h1 class="card-text">0.537 kWh</h1>
+        <div class="space"></div>
+        <h5 class="card-title">Inigo Verbruik</h5>
+        <h1 class="card-text">0.040 kWh</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<h5 class="card-footer"></h5>
